@@ -1,0 +1,88 @@
+a.menu:link {
+				display:flex;
+				align-items:center;
+				color:black;
+				background-color:white;
+				width:50px;
+				padding: 5px;
+				text-decoration:none;
+				font-weight:bold;
+				margin-right: auto;
+				margin-left: auto;
+			}
+
+a.menu:visited { color:black;
+				 text-decoration:none;
+				 margin-right: auto;
+				 margin-left: auto;
+				 width:50px;
+				}
+
+a.menu:hover {
+				display:flex;
+				text-decoration:none;
+				align-itmes:center;
+				color:#ff0066;
+				width:50px;
+				padding:5px;
+				margin-right: auto;
+				margin-left: auto;
+			}
+
+
+body {background-image:url('raspberry2.png');
+	}
+#box1 {background-color:white;
+		border-style:double;
+		width:600px;
+		height:700px;
+		text-align:center;
+		padding:10px;
+		margin:0 auto;
+		margin-top:15px;
+		font-family:georgia;
+		}
+
+h1 {
+	font-family:verdana;
+	text-decoration:underline;
+	text-align:center;
+	}
+
+img {
+	 border: black 3px solid;
+	}
+
+#menu{
+		border-bottom:2px solid #ff0066;
+		height:27px;
+		width:280px;
+		padding: 1px;
+		text-align:center;
+		margin-right:0px;
+	}
+
+
+
+li.menu {
+	display: inline;
+	float:left;
+	padding-right:0px;
+	text-align:center;
+	}
+
+ul.menu{
+	list-style-type:none;
+	display: inline;
+	width:50px;
+	text-align:center;
+	}
+
+ol{ 
+	list-style-type:square;
+	text-align:left;
+	}
+
+#modelA{
+			margin-top:370px;
+			}
